@@ -1,0 +1,158 @@
+body {
+    background-color: #fcfcfc;
+    background: linear-gradient(to bottom, #fcfcfc, #F8C7CD);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ferrari-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 30px;
+    background-color: #000000d8;
+    border: none;
+    box-shadow: 2px 2px 1px#00000044;
+}
+
+nav {
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 0px 15px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 5.2rem;
+    font-weight: 600;
+    color: #fcfcfc;
+    text-shadow: 2px 2px 1px#00000044;
+}
+
+.card-container-ferrari h1 {
+
+    text-align: center;
+    padding: 0px 15px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: 5.2rem;
+    font-weight: 600;
+    color: #1d1d1d;
+    text-shadow: 5px 5px 1px#00000044;
+}
+
+.card-body h5 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 450;
+    color: #ffbb00e7;
+}
+
+.card-body p {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 450;
+    color: #fcfcfc;
+}
+
+.btn-outline-secondary {
+    background-color: #ffffff4f;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.85rem;
+    color: #fcfcfc;
+}
+
+.background-color-nav {
+    background: linear-gradient(to bottom, #50505067, #e7e7e72d);
+}
+
+li a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.85rem;
+    color: #fcfcfc;
+}
+
+.card-container-ferrari {
+    margin-top: 50px;
+    padding: 15px 10px;
+    background-color: #F9D4D9;
+}
+
+.engine-container {
+    margin-bottom: 150px;
+}
+
+
+.text-box-ferrari {
+    padding: 150px 0px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 100;
+    font-size: 1.75rem;
+}
+
+.picture-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.picture-box img {
+    margin: 10px 5px;
+}
+
+.f40 {
+    text-align: center;
+    padding: 0px 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5.2rem;
+    font-weight: 600;
+    color: #fcfcfc;
+    text-shadow: 2px 2px 1px#66666644;
+}
+
+.big-collage {
+    background-color: #fae4e4;
+    padding: 20px 5px;
+    margin-bottom: 150px;
+}
+
+.carsol-box {
+    background-color: #F9DBDF;
+    padding: 20px 20px;
+    margin-bottom: 150px;
+}
+
+.italian-flag {
+    margin: 20px 10px;
+    text-align: center;
+    padding: 0px 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 5.2rem;
+    font-weight: 600;
+    color: #fcfcfc;
+    text-shadow: 2px 2px 1px#00000044;
+}
+
+.italian-flag .orange-text {
+    transition: 1s;
+    color: #fcfcfc;
+}
+
+.italian-flag .green-text {
+    transition: 1s;
+    color: #fcfcfc;
+}
+
+.italian-flag:hover .orange-text {
+    color: rgb(238, 112, 103);
+}
+
+.italian-flag:hover .green-text {
+    color: rgb(99, 196, 107);
+}
